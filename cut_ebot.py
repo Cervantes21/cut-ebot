@@ -15,6 +15,12 @@ cartera_ll = 22 "x" 18.5
 tirantes_ll = 38 "x" 11.3
 
 lonchera_redonda
+<<<<<<< HEAD
 cartucheras = [cartuchera_beauty_fa, cartuchera_circular, cartuchera_american]
 mochilas = [m_labastida, m_blair, m_kipling]
 print(palas)
+=======
+
+cartucheras = [cartuchera_beauty_fa, cartuchera_circular, cartuchera_american]
+mochilas = [m_labastida, m_blair, m_kipling]
+>>>>>>> 7ab2fed9a5ce4adad9aac90b9393073f163084ac
