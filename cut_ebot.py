@@ -35,3 +35,20 @@ print(mini_beuty)
 # >>> print(f"Elegiste: {modelo} es correcto?")
 # Elegiste: labastida es correcto?
 # >>> cantidad = int(input("Cuántas mochilas quieres: "))
+# estudiantes = {
+#     'mexico': 10,
+#     'colombia': 15,
+#     'puerto_rico': 4,
+# }
+
+# for pais in estudiantes:
+#     ...
+
+# for pais in estudiantes.keys():
+#     ...
+
+# for numero_de_estudiantes in estudiantes.values():
+#     ...
+
+# for pais, numero_de_estudiantes in estudiantes.items():
+#     ...
