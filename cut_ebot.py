@@ -3,17 +3,17 @@ class categorias (mochilas, loncheras, cartucheras):
     loncheras = [mini_beauty, l_labastida, l_redonda]
     cartucheras = [c_beauty_fa, c_circular, c_american]
     
-    def mochilas(numero, color):
+    def mochilas(numero):
         m_labastida = 0
         m_blair = 0
         m_kipling = 0
         
-    def loncheras(numero, color):
+    def loncheras(numero):
         mini_beauty = 0
         l_labastida = 0
         l_redonda = 0
     
-    def cartucheras(numero, color):
+    def cartucheras(numero):
         c_beauty_fa = 0
         c_circular = 0
         c_american = 0
