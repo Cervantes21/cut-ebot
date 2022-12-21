@@ -1,23 +1,14 @@
-class categorias (mochilas, loncheras, cartucheras):
-    mochilas = [m_labastida, m_blair, m_kipling]
-    loncheras = [mini_beauty, l_labastida, l_redonda]
-    cartucheras = [c_beauty_fa, c_circular, c_american]
-    
-    def mochilas(numero):
-        m_labastida = 0
-        m_blair = 0
-        m_kipling = 0
-        
-    def loncheras(numero):
-        mini_beauty = 0
-        l_labastida = 0
-        l_redonda = 0
-    
-    def cartucheras(numero):
-        c_beauty_fa = 0
-        c_circular = 0
-        c_american = 0
-        
+def run():
+    pass
+def mochilas():
+    numero = 0
+    color = ''
+    mochilas = opcion
+def loncheras():
+    pass
+def cartucheras():
+    pass
+
 opcion = int(input(f'Escoge una categoria \n 1. mochilas \n 2. loncheras \n 3. cartucheras \n'))
 
 if opcion == 1:
@@ -38,9 +29,8 @@ elif opcion == 3:
 else:
     print('Opcion no valida')
 
-def run():
-    pass
 
 
-if __name__ == "__main__":
+
+if __name__ == '_main_':
     run()
