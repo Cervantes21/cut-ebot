@@ -1,9 +1,9 @@
 def run():
     pass
 def mochilas():
-    numero = 0
-    color = ''
-    mochilas = opcion
+    numero = ()
+    color = ()
+    respuesta = opcion
 def loncheras():
     pass
 def cartucheras():
