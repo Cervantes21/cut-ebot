@@ -36,7 +36,7 @@ def categoria(opcion):
         return color
 
 def choose_material(material):
-
+    pass
 def run():
     pass
 
