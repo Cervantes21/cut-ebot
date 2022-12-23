@@ -4,11 +4,12 @@ def mochilas(numero,color):
     numero = int()
     color = str()
     
-def loncheras():
-    pass
-def cartucheras():
-    pass
-
+def loncheras(numero,color):
+    numero = int()
+    color = str()
+def cartucheras(numero, color):
+    numero = int()
+    color = str()
 opcion = int(input(f'Escoge una categoria \n 1. mochilas \n 2. loncheras \n 3. cartucheras \n'))
 
 if opcion == 1:
@@ -24,11 +25,15 @@ elif opcion == 2:
     numero = int(input('* Cuantas Loncheras: '))
     color = str(input('* Digite un color: '))
     loncheras(numero,color)
+    respuesta = (f'Necesitas {numero*2} de palas y {numero*4} fuelles color:{color}')
+    print(respuesta)
 elif opcion == 3:
     print('3. Cartucheras')
     numero = int(input('* Cuantas Cartucheras: '))
     color = str(input('Digite un color: '))
     cartucheras(numero,color)
+    respuesta = (f'Necesitas {numero*2} de palas y {numero*2} fuelles color:{color}')
+    print(respuesta)
 else:
     print('Opcion no valida')
 
